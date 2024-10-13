@@ -1,0 +1,37 @@
+person
+organization
+location
+building
+person actor
+person artist author
+person athlete
+person director
+person other
+person politician
+person scholar
+person soldier
+organization company
+organization education
+organization government agency
+organization media newspaper
+organization other
+organization political party
+organization religion
+organization show
+organization sports league
+organization sports team
+location body of water
+location GPE
+location island
+location mountain
+location other
+location park
+location road railway highway transit
+building airport
+building hospital
+building hotel
+building library
+building other
+building restaurant
+building sports facility
+building theater
