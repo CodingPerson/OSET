@@ -12,12 +12,12 @@ We construct two benchmark datasets of the OSET task based on existing fine-grai
 
 | **Dataset**                        | **BBN** | **Few-NERD** |
 | ---------------------------------- | ------- | ------------ |
-| **Known types**                    | 27      | 37           |
-| **Unknown types**                  | 20      | 37           |
-| **Training instances**             | 7996    | 35193        |
-| **Validation instances**           | 2431    | 31729        |
-| **Known-type testing instances**   | 961     | 16176        |
-| **Unknown-type testing instances** | 961     | 16176        |
+| Known types                    | 27      | 37           |
+| Unknown types                  | 20      | 37           |
+| Training instances             | 7996    | 35193        |
+| Validation instances           | 2431    | 31729        |
+| Known-type testing instances   | 961     | 16176        |
+| Unknown-type testing instances | 961     | 16176        |
 
 ## Quickly Reproduce
 
