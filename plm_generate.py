@@ -198,7 +198,7 @@ if __name__ == '__main__':
 
         task_len = len(task)
         chunk_num = int(np.ceil(task_len/10))
-        task = task[chunk_num*0:chunk_num*1]
+        #task = task[chunk_num*0:chunk_num*1]
         ood_results = []
         for t in tqdm(task):
             res = fill_masks(t)
