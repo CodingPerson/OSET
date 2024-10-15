@@ -12,16 +12,16 @@ We construct two benchmark datasets of the OSET task based on existing fine-grai
 
 | **Dataset**                        | **BBN** | **Few-NERD** |
 | ---------------------------------- | ------- | ------------ |
-| Known types                    | 27      | 37           |
-| Unknown types                  | 20      | 37           |
-| Training instances             | 7996    | 35193        |
-| Validation instances           | 2431    | 31729        |
-| Known-type testing instances   | 961     | 16176        |
-| Unknown-type testing instances | 961     | 16176        |
+| **Known types**                    | 27      | 37           |
+| **Unknown types**                  | 20      | 37           |
+| **Training instances**             | 7996    | 35193        |
+| **Validation instances**           | 2431    | 31729        |
+| **Known-type testing instances**   | 961     | 16176        |
+| **Unknown-type testing instances** | 961     | 16176        |
 
 ## Quickly Reproduce
 
-We provide all generated pseudo unknown-type instances in the folder `checkpoints`. Based on these instances, you can run the following command to reproduce the results of our paper.
+We provide all generated pseudo unknown-type instances in the folder `checkpoints`. Based on these instances, you can run the following command to reproduce the results of <dataset_name>.
 
 ```
 python train_weight_llm.py --data <dataset_name> --unknown_flag True --contrast True
@@ -34,6 +34,14 @@ python train_weight_llm.py --data <dataset_name> --unknown_flag True --contrast 
 ### PLM-Based Generation Module
 
 #### keyword extractor
+
+Employ the attribute value representation module to generate semantics-enhanced type representations
+
+```
+sh class_embed/run_type_name.sh
+```
+
+Train the keyword extractor
 
 ```
 python train_aug.py --data <dataset_name>
