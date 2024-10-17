@@ -80,7 +80,7 @@ parser.add_argument('--seed', default=6, type=int, help='Random seed.')
 parser.add_argument('--max_num', type=int, default=200, help='mask word num')
 parser.add_argument('--max_epoch', type=int, default=50, help='mask word num')
 parser.add_argument('--positive_num', type=int, default=3, help='positive num sample')
-parser.add_argument('--ood_flag', type=bool, default=False, help='ood flag')
+parser.add_argument('--unknown_flag', type=bool, default=False, help='ood flag')
 def logger_config(log_path, logging_name):
     logger = logging.getLogger(logging_name)
     logger.setLevel(level=logging.DEBUG)
@@ -207,7 +207,7 @@ if __name__ == '__main__':
             output = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"],labels=label,
                            coarse_labels=coarse_labels,fine_grained_labels=fine_grained_labels,return_dict=True,
             ood_ids = ood_inputs["input_ids"],ood_attention_mask=ood_inputs["attention_mask"],ood_labels = ood_labels,
-                           positive_samples = positive_samples,is_train=True,ood_flag=args.ood_flag)
+                           positive_samples = positive_samples,is_train=True,ood_flag=args.unknown_flag)
             optimizer.zero_grad()
             output['loss'].backward()
             loss += output['loss'].item()
