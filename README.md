@@ -21,7 +21,7 @@ We construct two benchmark datasets of the OSET task based on existing fine-grai
 
 ## Quickly Reproduce
 
-We provide all generated pseudo unknown-type instances in the folder `checkpoints`. Based on these instances, you can run the following command to reproduce the results of <dataset_name>.
+We provide all generated pseudo unknown-type instances in the folder `checkpoints`. Based on these instances, you can run the following command to reproduce the results.
 
 ```
 python train_weight_llm.py --data <dataset_name> --unknown_flag True --contrast True --lamb 0.1
@@ -56,7 +56,7 @@ Train the unified open-set classifier using  known-type instances to calculate t
 python train_weight.py --data <dataset_name>
 ```
 
-perform iterative substitutions across all known-type instances
+Perform iterative substitutions across all known-type instances
 
 ```
 python plm_generate.py --data <dataset_name>
