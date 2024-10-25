@@ -349,7 +349,7 @@ if __name__ == '__main__':
         print("===== completed query seed {} prompt =====".format(seed))
         all_num +=  len(valid_message)
 
-        with open(os.path.join(train_ood_data_path,'llm_ood_llama_dpp_valid.txt'),'a+') as f:
+        with open(os.path.join(train_ood_data_path,'llm_ood_llama_dpp_valid_w.txt'),'a+') as f:
             # json_str = json.dumps(response)
             for msg in valid_message:
                 if '[CLS]' in line and '[SEP]' in line:
@@ -357,7 +357,7 @@ if __name__ == '__main__':
                     f.write("\n")
         if len(exit_msg) > int(len(train_dataset)):
             break
-        with open(os.path.join(train_ood_data_path, 'llm_ood_llama_dpp_valid.txt'), 'r') as f:
+        with open(os.path.join(train_ood_data_path, 'llm_ood_llama_dpp_valid_w.txt'), 'r') as f:
             lines = f.readlines()
             for line in lines:
                 if '[CLS]' in line and '[SEP]' in line:
