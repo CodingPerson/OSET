@@ -86,6 +86,6 @@ python train_weight_llm.py --data <dataset_name> --unknown_flag True --contrast 
 ## Descriptions of Baseline Methods
 ### Fine-grained entity typing
 For fine-grained entity typing methods, we incorporate a threshold mechanism that enables their identification of unknown-type instances.
-**UFET** utilizes BiLSTM and GloVe for context encoding, while employing GloVe and CharCNN for entity mention encoding. During inference, it learns a type label matrix to estimate each type's probability for multi-label classification based on a predefined threshold \chen{(i.e., 0.5)}. To enable UFET to detect unknown-type instances, we classify instances whose probabilities of all types fall below the threshold as unknown types.
+1. **UFET** utilizes BiLSTM and GloVe for context encoding, while employing GloVe and CharCNN for entity mention encoding. During inference, it learns a type label matrix to estimate each type's probability for multi-label classification based on a predefined threshold \chen{(i.e., 0.5)}. To enable UFET to detect unknown-type instances, we classify instances whose probabilities of all types fall below the threshold as unknown types.
 
 
