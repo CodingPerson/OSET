@@ -18,6 +18,8 @@ We construct two benchmark datasets of the OSET task based on existing fine-grai
 | **Validation instances**           | 2431    | 31729        |
 | **Known-type testing instances**   | 961     | 16176        |
 | **Unknown-type testing instances** | 961     | 16176        |
+
+
 The specific type allocation result for known and unknown types is shown as follows:
 | **BBN** | **Few-NERD** |
 | --- | --- |
