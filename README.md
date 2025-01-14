@@ -108,8 +108,7 @@ As entity typing can be viewed as a text classification task to some extent, we 
 4. **APRL** [10] learns representations by maximizing variance between reciprocal points and known-type instances, and then leverages a learnable margin to constrain open space. However, directly applying this method from computer vision to our task significantly declines performance. Accordingly, we introduce a pre-training step using known-type instances and detect unknown-type instances with a probability threshold (i.e., 0.5). 
 5. **SELFSUP** [11] trains a discriminative classifier by constructing synthetic outliers via self-supervision, enhancing the capability of classifying known-type instances and detecting unknown-type instances.
 
-[1] Eunsol Choi, Omer Levy, Yejin Choi, and Luke Zettlemoyer. 2018. Ultra-Fine Entity Typing. In ACL. 87–96
-
+[1] Eunsol Choi, Omer Levy, Yejin Choi, and Luke Zettlemoyer. 2018. Ultra-Fine Entity Typing. In ACL. 87–96  
 [2] Yasumasa Onoe, Michael Boratko, Andrew Mccallum, and Greg Durrett. 2021. Modeling Fine-Grained Entity Types with Box Embeddings. In ACL-IJCNLP. 2051–2064.
 
 [3] James Y Huang, Bangzheng Li, Jiashu Xu, and Muhao Chen. 2022. Unified Semantic Typing with Meaningful Label Inference. In NAACL-HLT. 2642–2654.
