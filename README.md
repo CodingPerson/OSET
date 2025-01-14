@@ -111,6 +111,7 @@ As entity typing can be viewed as a text classification task to some extent, we 
 [1] Eunsol Choi, Omer Levy, Yejin Choi, and Luke Zettlemoyer. 2018. Ultra-Fine Entity Typing. In ACL. 87–96
 
 [2] Yasumasa Onoe, Michael Boratko, Andrew Mccallum, and Greg Durrett. 2021. Modeling Fine-Grained Entity Types with Box Embeddings. In ACL-IJCNLP. 2051–2064.
+
 [3] James Y Huang, Bangzheng Li, Jiashu Xu, and Muhao Chen. 2022. Unified Semantic Typing with Meaningful Label Inference. In NAACL-HLT. 2642–2654.
 [4] Yanlin Feng, Adithya Pratapa, and David R Mortensen. 2023. Calibrated Seq2seq Models for Efficient and Generalizable Ultra-fine Entity Typing. In EMNLP-Findings. 15550–15560.
 [5] Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. 2022. Training language models to follow instructions with human feedback. In NIPS. 27730–27744.
