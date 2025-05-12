@@ -19,13 +19,13 @@ We construct two benchmark datasets of the OSET task based on existing fine-grai
 | **Known-type testing instances**   | 961     | 16176        |
 | **Unknown-type testing instances** | 961     | 16176        |
 
-
+<p>
 The specific type allocation result for known and unknown types is shown as follows:
 | **BBN** | **Few-NERD** |
 | --- | --- |
 | **Known Types in BBN:**<br>/person, /organization, /location, /gpe, /work_of_art, /product, /animal, /organization/corporation, /organization/educational, /organization/hotel, /organization/government, /organization/hospital, /organization/museum, /organization/political, /organization/religious, /location/continent, /location/lake_sea_ocean, /location/region, /location/river, /gpe/city, /gpe/country, /gpe/state_province, /work_of_art/book, /work_of_art/play, /work_of_art/song, /product/vehicle, /product/weapon | **Known Types in Few-NERD:**<br>/person, /organization, /location, /building, /person/actor, /person/artist_author, /person/athlete, /person/director, /person/other, /person/politician, /person/scholar, /person/soldier, /organization/company, /organization/education, /organization/government, /organization/media_newspaper, /organization/other, /organization/political_party, /organization/religion, /organization/show_organization, /organization/sports_league, /organization/sports_team, /location/bodies_of_water, /location/gpe, /location/island, /location/mountain, /location/other, /location/park, /location/road_railway_highway_transit, /building/airport, /building/hospital, /building/hotel, /building/library, /building/other, /building/restaurant, /building/sports_facility, /building/theater |
 | **Unknown Types in BBN:**<br>/contact_info, /event, /facility, /disease, /game, /language, /law, /plant, /substance, /contact_info/url, /event/hurricane, /event/war, /facility/airport, /facility/attraction, /facility/bridge, /facility/building, /facility/highway_street, /substance/chemical, /substance/drug, /substance/food | **Unknown Types in Few-NERD:**<br>/art, /event, /other, /product, /art/broadcast_program, /art/film, /art/music, /art/other, /art/painting, /art/written_art, /event/attack_battle_war_military_conflict, /event/disaster, /event/election, /event/other, /event/protest, /event/sports_event, /other/astronomy_thing, /other/award, /other/biology_thing, /other/chemical_thing, /other/currency, /other/disease, /other/educational_degree, /other/god, /other/language, /other/law, /other/living_thing, /other/medical, /product/airplane, /product/car, /product/food, /product/game, /product/other, /product/ship, /product/software, /product/train, /product/weapon |
-
+</p>
 ## Quickly Reproduce
 
 We provide all generated pseudo unknown-type instances in the folder `checkpoints` (You should extract the compressed files with a `.zip` extension). Based on these instances, you can run the following command to reproduce the results
