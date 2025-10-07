@@ -8,7 +8,7 @@
 
 ## Datasets
 
-We construct two benchmark datasets of the OSET task based on existing fine-grained entity typing datasets (BBN, Few-NERD), which are provided in the folder `data`. The dataset statistics are shown as follows:
+We construct two benchmark datasets for the OSET task based on existing fine-grained entity typing datasets (BBN, Few-NERD), which are provided in the folder `data`. The dataset statistics are shown as follows:
 
 | **Dataset**                        | **BBN** | **Few-NERD** |
 | ---------------------------------- | ------- | ------------ |
