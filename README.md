@@ -3,7 +3,7 @@
 ## Environment
 
 * Computational platform: Pytorch 1.13.1, NVIDIA RTX A6000 GPU, CUDA Version 12.4
-*  Development language: Python 3.8
+* Development language: Python 3.8
 * Libraries are listed in requirements.txt, which can be installed via the command `pip install -r requirements.txt`.
 
 ## Datasets
